@@ -7,7 +7,8 @@ import lombok.experimental.Accessors;
 public record LoginOut (
     String id,
     String name,
-    String email
+    String email,
+    String token
 ){
 
 }
