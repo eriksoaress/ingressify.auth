@@ -1,0 +1,7 @@
+insper\ingressify\auth\CredentialIn.class
+insper\ingressify\auth\RegisterIn$RegisterInBuilder.class
+insper\ingressify\auth\RegisterIn.class
+insper\ingressify\auth\CredentialIn$CredentialInBuilder.class
+insper\ingressify\auth\AuthController.class
+insper\ingressify\auth\LoginOut$LoginOutBuilder.class
+insper\ingressify\auth\LoginOut.class

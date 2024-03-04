@@ -14,5 +14,5 @@ public interface AuthController {
 
     @PostMapping("/auth/login")
     ResponseEntity<LoginOut> authenticate(
-            @RequestBody(required = true) CredetalIn in);
+            @RequestBody(required = true) CredentialIn in);
 }
