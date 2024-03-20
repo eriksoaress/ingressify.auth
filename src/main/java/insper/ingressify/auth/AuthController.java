@@ -8,11 +8,16 @@ import org.springframework.web.bind.annotation.RequestBody;
 @FeignClient("ingressify-auth")
 public interface AuthController { 
 
-    @PostMapping("/auth/register")
-    ResponseEntity<?> create(
-            @RequestBody(required = true) RegisterIn in);
+        @PostMapping("/auth/register")
+        ResponseEntity<?> create(
+                @RequestBody(required = true) RegisterIn in);
 
-    @PostMapping("/auth/login")
-    ResponseEntity<LoginOut> authenticate(
-            @RequestBody(required = true) CredentialIn in);
+        @PostMapping("/auth/login")
+        ResponseEntity<LoginOut> authenticate(
+                @RequestBody(required = true) CredentialIn in);
+
+        @PostMapping("/auth/solve")
+        ResponseEntity<SolveOut> solve (
+        @RequestBody(required = true) SolveIn in
+        );
 }
