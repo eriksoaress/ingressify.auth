@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient("ingressify-auth")
+@FeignClient("jogayjoga-auth")
 public interface AuthController { 
 
         @PostMapping("/auth/register")
