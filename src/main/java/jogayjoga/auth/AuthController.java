@@ -1,4 +1,4 @@
-package insper.ingressify.auth;
+package jogayjoga.auth;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
