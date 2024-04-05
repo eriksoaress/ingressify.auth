@@ -7,4 +7,4 @@ import lombok.experimental.Accessors;
 public record CredentialIn(
     String email,
     String password
-) {}
+) { }

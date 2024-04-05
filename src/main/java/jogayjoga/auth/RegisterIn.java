@@ -1,4 +1,5 @@
 package jogayjoga.auth;
+
 import lombok.Builder;
 import lombok.experimental.Accessors;
 
@@ -9,5 +10,5 @@ public record RegisterIn (
     String email,
     String password
 ) {
-
+    
 }
